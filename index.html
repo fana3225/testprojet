@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador - Sistema de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-area">
+            <h1 class="logo-title">Associação Comunitária Itaqui Bacanga</h1>
+            <p class="logo-subtitle">Sistema de Cadastro</p>
+        </div>
+
+        <div class="form-container active">
+            <form class="login-form" id="loginForm">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="form-control" placeholder="seu.email@exemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <div class="password-container">
+                        <input type="password" id="password" class="form-control" placeholder="Digite sua senha" required>
+                        <button type="button" class="toggle-password" id="togglePassword">Mostrar</button>
+                    </div>
+                </div>
+
+                <button type="submit" class="login-btn">Entrar</button>
+
+                <div class="login-links">
+                    <a href="#" id="forgotPasswordLink" class="forgot-password-link">Esqueceu sua senha?</a>
+                    <a href="cadastro.html" class="register-link">Não tem uma conta? <strong>Cadastre-se</strong></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="project-info">
+            <p><strong>Projeto Integrador Comunitário:</strong> Tecnologia que Transforma</p>
+            <p>Sistema de gestão para associações comunitárias</p>
+            
+            <div class="footer-logos">
+                <span>SOFTEX</span>
+                <span>PERNAMBUCO</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-login.js"></script>
+</body>
+</html>
